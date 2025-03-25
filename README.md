@@ -2,13 +2,13 @@
 
 Bubble Sort:
 
-- Time Complexity: O(n^2)
-- Space Complexity: O(1)
+- Time Complexity: `O(n^2)`
+- Space Complexity: `O(1)`
 
 Merge Sort:
 
-- Time Complexity: O(n log n)
-- Space Complexity: O(n)
+- Time Complexity: `O(n log n)`
+- Space Complexity: `O(n)`
 
 Bubble Sort is better for small arrays and is more efficient in terms of space complexity, while Merge Sort is better for larger arrays and is more efficient in terms of time complexity.
 
@@ -18,4 +18,4 @@ Bubble Sort is a simple sorting algorithm that repeatedly steps through the list
 
 ### Merge Sort
 
-Merge Sort is a divide-and-conquer algorithm that splits the array into two halves, recursively sorts each half, and then merges the sorted halves back together. It is a stable sorting algorithm with a time complexity of O(n log n) and a space complexity of O(n).
+Merge Sort is a divide-and-conquer algorithm that splits the array into two halves, recursively sorts each half, and then merges the sorted halves back together. It is a stable sorting algorithm with a time complexity of `O(n log n)` and a space complexity of `O(n)`.
