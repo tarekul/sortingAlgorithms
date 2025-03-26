@@ -30,7 +30,6 @@ Bubble Sort:
 | 4 vs 1      | [3, 2, 1, 4] | ✅ Swap |
 
 🔹 Total comparisons in Pass 1: 3
-🔹 Total swaps in Pass 1: 3
 
 [3, 2, 1, 4]
 
@@ -42,7 +41,6 @@ Bubble Sort:
 | 3 vs 1      | [3, 2, 1, 4] | ✅ Swap |
 
 🔹 Total comparisons in Pass 2: 2
-🔹 Total swaps in Pass 2: 2
 
 [2 , 1, 3, 4]
 
@@ -53,11 +51,9 @@ Bubble Sort:
 | 2 vs 1      | [2, 1, 3, 4] | ✅ Swap |
 
 🔹 Total comparisons in Pass 3: 1
-🔹 Total swaps in Pass 3: 1
 
 Final Sorted Array: [1, 2, 3, 4]
 Total Comparisons: 3 + 2 + 1 = 6
-Total Swaps: 3 + 2 + 1 = 6
 
 ### Merge Sort
 
@@ -91,7 +87,6 @@ Merge Sort:
 | [4] [3]   |            | [3, 4]        |
 |           | [2] [1]    | [1, 2]        |
 
-🔹 Merges in pass 3: 2
 🔹 Comparisons in pass 3: 2
 
 ### Pass 4 (Merging the sorted halves)
@@ -100,7 +95,6 @@ Merge Sort:
 | --------- | ---------- | ------------- |
 | [3, 4]    | [1, 2]     | [1, 2, 3, 4]  |
 
-🔹 Merges in pass 4: 1
 🔹 Comparisons in pass 4: 2
 
 Final Sorted Array: [1, 2, 3, 4]
@@ -113,11 +107,9 @@ Bubble Sort:
 - Time Complexity: `O(n^2)`
 - Space Complexity: `O(1)`
 - Total Comparisons: 6
-- Total Swaps: 6
 
 Merge Sort:
 
 - Time Complexity: `O(n log n)`
 - Space Complexity: `O(n)`
 - Total Comparisons: 4
-- Total Merges: 3
